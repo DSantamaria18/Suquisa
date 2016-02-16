@@ -1,0 +1,12 @@
+*ERROR* 	2016/01/04 - 00:00:14: Root category must be an integer value at line 125 in file classes/helper/HelperTreeCategories.php
+*ERROR* 	2016/01/04 - 00:00:46: Root category must be an integer value at line 125 in file classes/helper/HelperTreeCategories.php
+*ERROR* 	2016/01/04 - 00:00:51: Root category must be an integer value at line 125 in file classes/helper/HelperTreeCategories.php
+*ERROR* 	2016/01/04 - 00:00:57: Root category must be an integer value at line 125 in file classes/helper/HelperTreeCategories.php
+*ERROR* 	2016/01/04 - 20:54:38: Root category must be an integer value at line 125 in file classes/helper/HelperTreeCategories.php
+*ERROR* 	2016/01/04 - 20:55:14: Root category must be an integer value at line 125 in file classes/helper/HelperTreeCategories.php
+*ERROR* 	2016/01/04 - 21:02:47: Parent category does not exist at line 374 in file classes/Category.php
+*ERROR* 	2016/01/04 - 21:03:23: Parent category does not exist at line 374 in file classes/Category.php
+*ERROR* 	2016/01/04 - 21:03:56: Parent category does not exist at line 374 in file classes/Category.php
+*ERROR* 	2016/01/04 - 21:07:49: Parent category does not exist at line 374 in file classes/Category.php
+*ERROR* 	2016/01/04 - 21:40:00: Parent category does not exist at line 374 in file classes/Category.php
+*ERROR* 	2016/01/04 - 21:45:18: Parent category does not exist at line 374 in file classes/Category.php

@@ -1,0 +1,15 @@
+.header_user_info {
+  float: right; }
+  .header_user_info a {
+    color: #333333;
+    float: left;
+    display: block;
+    padding: 3px 9px 3px 8px;
+    border-left: 1px solid #515151;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+      background: #f6f6f6; }

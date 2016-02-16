@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Simple Page with CKEditor</title>
+        <!-- Make sure the path to CKEditor is correct. -->
+        <script src="ckeditor.js"></script>
+    </head>
+    <body>
+        <form>
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit tellus, consequat id mattis non, convallis eu ligula. Nulla non nisi nec dolor gravida gravida. Nulla facilisi. Praesent vestibulum vestibulum ex, at porttitor ipsum molestie vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed erat odio, finibus et pellentesque id, consequat eu dolor. Curabitur imperdiet vitae neque nec sodales. Fusce sem tortor, semper quis nulla auctor, laoreet mattis ex. Cras euismod ipsum dui, id tempor turpis convallis eu. Aenean finibus in enim a gravida. Vivamus efficitur porttitor quam quis imperdiet. Donec ut magna ornare, euismod justo vel, venenatis elit. Morbi sed nibh non ipsum efficitur mattis vitae a diam. Nam sed elit a lectus faucibus fringilla ac vitae lorem.</p>
+
+				<p>Maecenas scelerisque dapibus varius. Nunc viverra pellentesque diam, non dapibus mauris molestie in. Cras at cursus nisi, a bibendum diam. Maecenas sagittis tincidunt eros, at tristique nisi ultrices id. Duis volutpat vulputate diam et accumsan. Etiam sapien nisl, pharetra non rutrum eget, semper at sapien. Donec ac ex vitae magna dapibus tristique sed id eros. Morbi in augue ex. Etiam non urna at elit ornare iaculis. Mauris accumsan turpis in nisl fermentum, at fermentum mi varius. Vestibulum hendrerit sodales sapien, quis interdum lorem congue quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non enim semper, consequat velit eget, aliquam ante.</p>
+				
+				<p>Ut quis porta sapien, in lobortis elit. Praesent vestibulum aliquam neque, sit amet tincidunt neque laoreet eu. Donec sit amet mollis risus, ac tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque non magna libero. Sed sodales, elit at consectetur viverra, lorem diam imperdiet mauris, a pretium dui sem ac mauris. Sed dolor arcu, fringilla tempor libero consequat, accumsan tempor tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam eu varius orci. In eget libero tellus. Sed nisi sem, consequat vel magna a, elementum commodo nibh. Nunc vitae dui molestie, molestie dui non, sagittis sem. Pellentesque blandit diam ut orci sodales, eu auctor nibh consectetur.</p>
+				
+				<p>Quisque sapien massa, ultrices et eros quis, gravida fermentum ipsum. Nullam nisl quam, gravida eu feugiat quis, luctus sit amet dolor. Cras mattis felis bibendum porttitor blandit. Nam tristique accumsan augue non fringilla. Cras ut nisi libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vitae libero nec lectus vestibulum pellentesque non ut enim. Fusce condimentum, augue in eleifend iaculis, diam urna aliquam nibh, eu auctor nibh mauris in justo. Phasellus vitae turpis quis erat luctus lacinia sed et orci. Integer rhoncus, ex eget consequat pellentesque, orci libero tincidunt arcu, nec rutrum risus tortor sit amet magna. Sed pharetra lacus laoreet enim fringilla, in luctus ligula efficitur. Etiam luctus turpis tellus, vitae sollicitudin massa suscipit sed. Nullam consequat, nisl venenatis tincidunt congue, dui purus pretium ante, ac ultricies magna tellus nec elit. Integer ornare ligula vitae dolor malesuada cursus. Sed at risus et tellus ultrices semper. Vivamus a mi vel mauris aliquet iaculis nec nec libero.</p>
+				<p>
+				Donec metus leo, euismod nec massa accumsan, pulvinar tempor nunc. Cras dapibus eget lectus eu scelerisque. Morbi ut mattis est. Aliquam sit amet libero id lectus aliquam mollis non vel orci. Fusce volutpat turpis quis augue tristique blandit. Quisque quis cursus ex. Nulla nec rutrum felis, at aliquet mi. Nam vestibulum ex in ultricies accumsan. Aenean ut velit quis diam posuere accumsan. Sed ornare massa vel tellus pellentesque auctor. Fusce tempus arcu quis purus interdum sodales. Aliquam lacinia dictum urna, non accumsan ex eleifend eu. </p></textarea>
+
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+            </script>
+        </form>
+    </body>
+</html>

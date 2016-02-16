@@ -1,0 +1,107 @@
+/* Created by Artisteer v4.1.0.60046 */
+
+.jq-header, #jq-header-bg, .jq-layout-cell, .jq-layout-wrapper, .jq-footer, .jq-nav, #jq-hmenu-bg, .jq-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.jq-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.jq-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#jq-header-bg 
+{
+   display: none;
+}
+
+.jq-hmenu>li, .jq-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.jq-hmenu, ul.jq-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#jq-hmenu-bg 
+{
+   display: none;
+}
+
+ul.jq-hmenu>li:first-child {
+   padding-right:6px;
+}
+
+ul.jq-hmenu ul{
+   background-color: #7CEB14 !important;
+}
+
+.jq-content-layout, .jq-content-layout-row, .jq-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.jq-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.jq-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.jq-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.jq-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.jq-postheadericons span{
+   zoom: 1;
+}
+.jq-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.jq-content 
+{
+   width: auto;
+   float:none;
+}
+
